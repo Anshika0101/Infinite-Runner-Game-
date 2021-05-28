@@ -213,7 +213,7 @@ function spawnMoney2 (){
     var money2 = createSprite(600,100,40,10);
     money2.y = Math.round(random(10,60));
     money2.addImage(money3);
-    money2.scale = 0.2;
+    money2.scale = 0.1;
     money2.velocityX = -3;
     
      //assign lifetime to the variable
