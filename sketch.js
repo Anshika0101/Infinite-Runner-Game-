@@ -209,11 +209,11 @@ function spawnMoney() {
 }
 function spawnMoney2 (){
   //write code here to spawn the clouds
-  if (frameCount % 100=== 0) {
+  if (frameCount % 150=== 0) {
     var money2 = createSprite(600,100,40,10);
     money2.y = Math.round(random(10,60));
     money2.addImage(money3);
-    money2.scale = 0.1;
+    money2.scale = 0.3;
     money2.velocityX = -3;
     
      //assign lifetime to the variable
