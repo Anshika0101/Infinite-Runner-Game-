@@ -99,7 +99,7 @@ function draw() {
   drawSprites();
 
 if (gameState===PLAY){
-  score = score+ Math.round(frameCount/60);
+  score = score+ Math.round(frameCount/100);
   //(getFrameRate()/60);
   if(score>= 0){
   ground.velocityX = -6;
