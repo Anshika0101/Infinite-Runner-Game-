@@ -267,6 +267,9 @@ function reset(){
   
   mario.changeAnimation("running",mario_running);
   mario.scale =0.5;
+  if(life===0){
+    life =3;
+  }
   
   if(localStorage["HighestScore"]<score){
     localStorage["HighestScore"] = score;
